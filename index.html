@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8"> <!-- UFT-8 is full language encoding -->
+  <meta name="description" content="This is description text that will show in web search results">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>😀 HTML Course Notes</title>
+</head>
+<!-- ------------------------------------------------------------- -->
+
+<body>
+  <hr>
+  <center>
+    <h1>HTML Course Notes</h1>
+  </center>
+  <hr>
+  <br>
+  <h1>Headline h1</h1>
+  <h2>Headline h2</h2>
+  <h3>Headline h3</h3>
+  <h4>Headline h4</h4>
+  <h5>Headline h4</h5>
+  <p>Paragraph Text starts on new line. Here is some <strong>Strong text</strong>. And here is some <em>Emphasis
+      Text</em></p>
+  
+  <p>Here is a <a href="http://www.google.com">hyper link</a></p>
+  <p>Here is a <a href="link_page.html">link to second page</a></p>
+  <br>
+  <center>
+    <h1>Centered h1 Headline</h1>
+    <p>Centered Paragraph Text</p>
+  </center>
+  <hr>
+  <!-- -------------------------------------------------- -->
+
+  <h2>Unorganized List</h2>
+  <ul>
+    <li>List item 1</li>
+    <li>List item 2</li>
+    <ul>
+      <li>List item2 Sublist 1</li>
+      <li>List item2 Sublist 2</li>
+    </ul>
+  </ul>
+  <br>
+
+  <h2>Organized List</h2>
+  <ol>
+    <li>List item 1</li>
+    <li>List item 2</li>
+    <ol>
+      <li>List item2 Sublist 1</li>
+      <li>List item2 Sublist 2</li>
+    </ol>
+  </ol>
+  <hr>
+  <!-- ---------------------------------------------------------------- -->
+
+  <h2>html image from web</h2>
+  <img src="https://media.wired.co.uk/photos/607d91994d40fbb952b6ad64/master/w_1600%2Cc_limit/wired-meme-nft-brian.jpg" alt="image of face" width = 200>
+  <br>
+  <h2>html image from local</h2>
+  <img src="images\meme_image.png" alt="image of face" width = 300>
+  <hr>
+  <!-- ------------------------------------------------------------------ -->
+
+  <h2>Tables</h2>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table">Table Documentation</a>
+  <table>
+    <tr>
+      <thead>
+        <th>thead 1 (th)</th>
+        <th>thead 2 (th)</th>
+        <th>thead 3 (th)</th>
+      </thead>
+    </tr>
+  
+    <tbody>
+      <tr>
+        <td>table data (td) in tbody1</td>
+        <td>table data (td) in tbody2</td>
+        <td>table data (td) in tbody3</td>
+      </tr>
+    </tbody>
+  
+    <tfoot>
+      <tr>
+        <td>tdata in tfoot1</td>
+        <td>tdata in tfoot2</td>
+        <td>tdata in tfoot3</td>
+      </tr>
+    </tfoot>
+  </table>
+  <br>
+  <table border="1">
+    <tbody>
+      <tr>
+        <td>Row 1, Column 1</td>
+        <td>☆☆☆☆</td>
+        <td>Row 1, Column 3</td>
+        <td>☆☆☆☆</td>
+      </tr>
+      <tr>
+        <td>Row 2, Column 1</td>
+        <td>☆☆☆☆</td>
+        <td>Row 2, Column 3</td>
+        <td>☆☆☆☆</td>
+      </tr>
+    </tbody>
+  </table>
+  <br>
+
+  <table cellspacing = "20">
+    <tr>
+      <td>
+        <img src="https://media.wired.co.uk/photos/607d91994d40fbb952b6ad64/master/w_1600%2Cc_limit/wired-meme-nft-brian.jpg" alt="image of face" width = 200>
+      </td>
+      <td>
+        <p>Some text to accompany the image. Cell spacing is depricated</p>
+      </td>
+    </tr>
+  </table>
+  <hr>
+  <!-- -------------------------------------------------- -->
+
+  <h2>Forms</h2>
+  <p><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form">Form Documentation</a></p>
+  <form action="">
+    <input type="text"><br>
+    <input type="submit"><br>
+    <input type="color" name="" id=""><br>
+    <input type="date" name="" id=""><br>
+    <input type="radio" name="" id=""><br>
+    <input type="range" name="" id=""><br>
+  </form>
+  <br>
+
+  <h4>action="mailto:info@test.com" method = "post" enctype="text/plain"</h4>
+  <form action="mailto:info@test.com" method = "post" enctype="text/plain">
+    <label for="name">Your Name</label>
+    <input type="text" name="yourName" id="name"><br>
+    <label for="email">Your Email</label>
+    <input type="email" name="" id="email"><br>
+    <label for="message">Your Message</label><br>
+    <textarea name="yourMessage" id="message" cols="30" rows="10"></textarea><br>
+    <input type="submit">
+  </form>
+
+</body>
+
+</html>
